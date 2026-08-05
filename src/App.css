@@ -139,3 +139,41 @@ body {
 .photo-right {
   margin-left: 20px;
 }
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  margin-top: 0;
+  color: var(--blue);
+}
+
+.project-images {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.project-images img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 10px;
+  border: 1px solid #e1e4e8;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+/* Estilo general de las imágenes del proyecto */
+.project-images img {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 10px;
+  border: 1px solid #e1e4e8;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+
+/* Segunda imagen más pequeña */
+.project-images img:nth-child(2) {
+  max-width: 260px; /* más pequeña */
+  opacity: 0.92; /* más suave */
+  border-radius: 8px;
+}

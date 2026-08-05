@@ -1,5 +1,7 @@
 import "./App.css";
 import profile from "./assets/profile.jpg";
+import captura1 from "./assets/syphus/captura1.jpg";
+import captura2 from "./assets/syphus/captura2.jpg";
 
 export default function App() {
   return (
@@ -7,7 +9,7 @@ export default function App() {
       <header className="header header-row">
         <div className="header-text">
           <h1 className="name">Manuel Gabilondo</h1>
-          <p className="role">Desarrollador Web · Microsoft 365</p>
+          <p className="role">Desarrollador Web · Microsoft 365 Developer</p>
         </div>
 
         <img src={profile} alt="Foto de Manuel" className="photo photo-right" />
@@ -18,11 +20,9 @@ export default function App() {
         <section className="card">
           <h2>Perfil profesional</h2>
           <p>
-            Profesional especializado en el desarrollo y mantenimiento de soluciones
-            empresariales basadas en Business Central y AL. Con experiencia en la
-            modernización de sistemas NAV OnPrem hacia Business Central Cloud,
-            aplicando prácticas orientadas a la eficiencia, la escalabilidad y la
-            mejora continua de procesos internos.
+           +3 años como profesional especializado en el desarrollo y mantenimiento de soluciones
+            empresariales y diseño y desarrollo de páginas y aplicaciones web. Con experiencia en la
+            modernización de sistemas.
           </p>
         </section>
 
@@ -32,62 +32,80 @@ export default function App() {
           <div className="chips">
             <span>AL / Business Central</span>
             <span>NAV OnPrem</span>
-            <span>Manufacturing</span>
-            <span>ExcelBuffer</span>
+            <span>Excel</span>
+            <span>PHP</span>
             <span>React Native</span>
             <span>JavaScript</span>
           </div>
         </section>
 
-        {/* PROYECTOS */}
-        <section className="card">
-          <h2>Proyectos</h2>
-          <p>Listado de proyectos en desarrollo o pendientes de publicación.</p>
-          <ul className="list">
-            <li>No hay proyectos publicados actualmente.</li>
-          </ul>
-        </section>
+       {/* PROYECTOS */}
+<section className="card">
+  <h2>Proyectos</h2>
 
-        {/* EXPERIENCIA */}
-        <section className="card">
-          <h2>Experiencia profesional</h2>
-          <ul className="list">
-            <li>
-              <strong>d4b</strong> — Participación en procesos de migración desde
-              NAV OnPrem hacia Business Central Cloud, incorporando mejoras en
-              reportes, páginas y codeunits para adaptarlos a entornos modernos.
-            </li>
-            <li>
-              Optimización de rendimiento mediante técnicas como FindSet,
-              estrategias de caching y reducción de operaciones Modify.
-            </li>
-            <li>
-              Experiencia en módulos de fabricación: Routing, BOM,
-              CalculateProdOrder y TransferRouting.
-            </li>
-            <li>
-              Desarrollo de automatizaciones para importaciones CIRCULA y
-              generación de documentos Excel mediante ExcelBuffer.
-            </li>
-          </ul>
-        </section>
+  <div className="project">
+    <h3>Syphus — Plataforma web para gestión de entrenamientos</h3>
+    <p>
+      Aplicación web desarrollada para un gimnasio orientado a deportes de alto rendimiento.
+      Incluye gestión de usuarios, planificación de sesiones, seguimiento de progreso y
+      administración interna. Diseñada con enfoque en usabilidad, rendimiento y claridad
+      visual para facilitar el trabajo tanto de entrenadores como de deportistas.
+    </p>
+
+   
+  <div className="project-images">
+    <img src={captura1} alt="Syphus captura 1" />
+    <img src={captura2} alt="Syphus captura 2" />
+  </div>
+  </div>
+
+  <ul className="list">
+    <li>Más proyectos disponibles próximamente.</li>
+  </ul>
+</section>
+
+
+       {/* EXPERIENCIA PROFESIONAL */}
+<section className="card">
+  <h2>Experiencia profesional</h2>
+  <ul className="list">
+    <li><strong> D4b Solutions/Dimneo SL</strong> · Nov 2023 - Actualidad</li>
+    <li>
+      Desarrollo de soluciones digitales para empresas, incluyendo páginas web,
+      herramientas internas y aplicaciones adaptadas a sus necesidades.
+    </li>
+    <li>
+      Creación de interfaces claras y fáciles de usar para que cualquier persona
+      pueda trabajar con ellas sin complicaciones.
+    </li>
+    <li>
+      Adaptación y modernización de sistemas antiguos para que funcionen de forma
+      más rápida, segura y actual.
+    </li>
+    <li>
+      Colaboración con equipos y clientes para transformar ideas en productos
+      digitales reales y funcionales.
+    </li>
+  </ul>
+</section>
+
 
         {/* CONTACTO */}
         <section className="card">
           <h2>Contacto</h2>
           <div className="contact">
-            <a href="mailto:tu-email@gmail.com">Email</a>
-            <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">
+            <a href="mailto:mngabilondo@gmail.com">Email</a>
+            <a href="https://www.linkedin.com/in/manuel-gabilondo-echuaka-87827a259/" target="_blank">
               LinkedIn
             </a>
-            <a href="https://github.com/tu-usuario" target="_blank">
+            <a href="https://github.com/ManuGabilondo" target="_blank">
               GitHub
             </a>
           </div>
         </section>
       </main>
 
-      <footer className="footer">© 2026 Manuel</footer>
+      <footer className="footer">© 2026 Manuel Gabilondo</footer>
     </div>
   );
 }

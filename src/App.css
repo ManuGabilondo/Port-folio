@@ -1,0 +1,141 @@
+:root {
+  --bg: #f5f8ff;
+  --white: #ffffff;
+  --blue: #1f6feb;
+  --blue-soft: #e0ecff;
+  --text: #1b1f23;
+  --muted: #6a737d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: radial-gradient(circle at top, #ffffff 0, var(--bg) 60%);
+  color: var(--text);
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  /* text-align: center; */
+  padding: 40px 20px 20px;
+}
+
+.photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--blue-soft);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.name {
+  margin: 16px 0 4px;
+  font-size: 2rem;
+}
+
+.role {
+  margin: 0;
+  color: var(--muted);
+}
+
+.main {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background: var(--white);
+  border-radius: 14px;
+  padding: 20px 22px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  border: 1px solid #e1e4e8;
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--blue);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.chips span {
+  background: var(--blue-soft);
+  color: var(--blue);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.list {
+  margin: 10px 0 0;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.contact a {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--blue-soft);
+  background: #fdfdff;
+}
+
+.contact a:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+/* Header en fila */
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+/* Texto del header alineado a la izquierda */
+.header-text {
+  text-align: left;
+}
+
+/* Foto arriba a la derecha */
+.photo-right {
+  margin-left: 20px;
+}

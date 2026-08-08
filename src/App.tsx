@@ -41,7 +41,7 @@ export default function App() {
 
        {/* PROYECTOS */}
 <section className="card">
-  <h2>Proyectos</h2>
+  <h2>Proyectos profesionales</h2>
 
   <div className="project">
     <h3>Syphus — Plataforma web para gestión de entrenamientos</h3>

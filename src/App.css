@@ -177,3 +177,8 @@ body {
   opacity: 0.92; /* más suave */
   border-radius: 8px;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}

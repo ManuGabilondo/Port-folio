@@ -2,6 +2,8 @@ import "./App.css";
 import profile from "./assets/profile.jpg";
 import captura1 from "./assets/syphus/captura1.jpg";
 import captura2 from "./assets/syphus/captura2.jpg";
+import montoro1 from "./assets/montoro/montoro1.jpg";
+import montoro2 from "./assets/montoro/montoro2.jpg";
 
 export default function App() {
   return (
@@ -70,6 +72,26 @@ export default function App() {
                 <img src={captura1} alt="Syphus captura 1" />
                 <img src={captura2} alt="Syphus captura 2" />
               </div>
+            </div>
+
+            <div className="project">
+              <h3>Montoro — Web para joyería y relojería</h3>
+              <p>
+                Página web de presentación para una joyería y relojería local. Incluye quiénes son,
+                a qué se dedican, horario, ubicación con enlace a cómo llegar, y contacto por email
+                e Instagram.
+              </p>
+
+              <div className="project-images">
+                <img src={montoro1} alt="Montoro — página de inicio" />
+                <img src={montoro2} alt="Montoro — sección de contacto" />
+              </div>
+
+              <p>
+                <a href="https://tu-usuario.github.io/montoro-web/" target="_blank" rel="noopener noreferrer">
+                  Ver sitio en vivo
+                </a>
+              </p>
             </div>
 
             <ul className="list">

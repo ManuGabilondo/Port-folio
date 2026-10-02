@@ -31,30 +31,7 @@ export default function App() {
             </p>
           </section>
 
-          {/* COMPETENCIAS */}
-          <section className="card">
-            <h2>Competencias técnicas</h2>
-            <div className="chips">
-              <span>AL / Business Central</span>
-              <span>NAV OnPrem</span>
-              <span>C/AL</span>
-              <span>Excel</span>
-              <span>Power BI</span>
-              <span>Power Automate</span>
-              <span>SQL Server / T-SQL</span>
-              <span>PHP</span>
-              <span>React Native</span>
-              <span>JavaScript</span>
-              <span>TypeScript</span>
-              <span>HTML5 / CSS3</span>
-              <span>React.js</span>
-              <span>Node.js</span>
-              <span>Laravel / Symfony</span>
-              <span>MySQL / PostgreSQL</span>
-              <span>API REST / OData</span>
-              <span>Git / Azure DevOps</span>
-            </div>
-          </section>
+          
 
           {/* PROYECTOS */}
           <section className="card">
@@ -124,7 +101,30 @@ export default function App() {
               </a>
             </div>
           </section>
-
+{/* COMPETENCIAS */}
+          <section className="card">
+            <h2>Competencias técnicas</h2>
+            <div className="chips">
+              <span>AL / Business Central</span>
+              <span>NAV OnPrem</span>
+              <span>C/AL</span>
+              <span>Excel</span>
+              <span>Power BI</span>
+              <span>Power Automate</span>
+              <span>SQL Server / T-SQL</span>
+              <span>PHP</span>
+              <span>React Native</span>
+              <span>JavaScript</span>
+              <span>TypeScript</span>
+              <span>HTML5 / CSS3</span>
+              <span>React.js</span>
+              <span>Node.js</span>
+              <span>Laravel / Symfony</span>
+              <span>MySQL / PostgreSQL</span>
+              <span>API REST / OData</span>
+              <span>Git / Azure DevOps</span>
+            </div>
+          </section>
         </main>
 
         <footer className="footer">© 2026 Manuel Gabilondo</footer>

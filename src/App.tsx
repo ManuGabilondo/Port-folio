@@ -65,7 +65,7 @@ export default function App() {
               </div>
 
               <p>
-                <a href="https://tu-usuario.github.io/montoro-web/" target="_blank" rel="noopener noreferrer">
+                <a href="https://manugabilondo.github.io/montoro-web/" target="_blank" rel="noopener noreferrer">
                   Ver sitio en vivo
                 </a>
               </p>

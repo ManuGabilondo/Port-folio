@@ -2,8 +2,8 @@ import "./App.css";
 import profile from "./assets/profile.jpg";
 import captura1 from "./assets/syphus/captura1.jpg";
 import captura2 from "./assets/syphus/captura2.jpg";
-import montoro1 from "./assets/montoro/montoro1.jpg";
-import montoro2 from "./assets/montoro/montoro2.jpg";
+import montoro1 from "./assets/montoro/montoro1.png";
+import montoro2 from "./assets/montoro/montoro2.png";
 
 export default function App() {
   return (
